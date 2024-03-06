@@ -10,6 +10,9 @@
     <meta name="msapplication-TileColor" content="#b721ff">
     <meta name="theme-color" content="#b721ff">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
     <style>
         html { height:100%; overflow:hidden; }
         body {
@@ -58,7 +61,7 @@
             -webkit-text-stroke-color: black;
             font-weight:900;
             font-size:80px;
-            font-family: 'Nunito', sans-serif;
+            font-family: 'Honk', sans-serif;
             word-wrap: break-word;
         }
         @media(min-width:1000px) {
@@ -70,7 +73,9 @@
                 -webkit-text-stroke-width: 1.5px;
             }
         }
-        #p { background-image: url("imgs/p.png"); }
+        #p { background-image: url("imgs/p.png");
+
+        }
         #op { background-image: url("imgs/op.png"); }
     </style>
 </head>
@@ -79,6 +84,7 @@
 <img class="title" src="imgs/popcat.svg" alt="POPCAT">
 
 <div class="cat-img" id="p"></div>
+
 
 <script>
     /*Preloading alternate cat image*/
